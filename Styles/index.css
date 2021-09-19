@@ -118,10 +118,16 @@ p {
   margin-left: 6px;
 }
 .hero_section .row h1 {
-  font-size: 60px;
+  font-size: 50px !important;
   font-weight: 800;
   
 }
+@media (max-width:567px) {
+ .hero_section .row h1 {
+    font-size: 37px !important;
+}
+}
+
 .hero_section .row h2 {
   font-size: 20px;
   font-weight: 100;
@@ -152,7 +158,7 @@ p {
 }
 
 
-@media (max-width: 1200px) and (min-width: 993px) {
+@media (max-width: 1200px) {
   .hero_section .row h1 {
     font-size: 58px;
   }
@@ -222,7 +228,10 @@ p {
 
 .about_section {
   background-color: #282a39;
-  padding: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+
   
 }
 .about_section .links i {
@@ -286,6 +295,15 @@ p {
   
 
 }
+
+@media(max-width: 600px) {
+    #heading-1{
+      font-size:5px;
+      margin:auto !important;
+    }
+  }
+
+
 .about_section .about_me_right_section button {
    border-radius: 7px;
    font-size: 15px;
@@ -312,6 +330,7 @@ p {
 @media (max-width: 763px) and (min-width: 500px) {
   .about_section .about_me_right_section p{
     font-size: 58px;
+    padding: 0%;
     
   }
   .about_section #heading {
@@ -327,21 +346,6 @@ p {
 }
 
 /* skills section */
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 
 .skills_section {
   padding: 100px 0px;
@@ -555,7 +559,6 @@ color: transparent ;
     height: 200px;
   }
 }
-
 
 /* web developer lighting animation */
 /* -------------------------------- */
